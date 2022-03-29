@@ -1,0 +1,29 @@
+- 👋 Hi, I’m @Jyotsnashimpi25
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+Jyotsnashimpi25/Jyotsnashimpi25 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+using System;
+
+    class jyo
+    {
+    	void show(ref int x)
+    	{
+    		x=10;
+    	Console.WriteLine(x);
+    	}
+    public static void Main(string[] args)
+    {
+    	 int x=20;
+    	jyo p1=new jyo();
+    	Console.WriteLine("before function call"+x);
+    	p1.show(ref x);
+    	Console.WriteLine("after call "+x);
+    }
+    }
+       
